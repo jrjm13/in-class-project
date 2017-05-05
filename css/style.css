@@ -1,0 +1,138 @@
+/* Universals section */
+.text-center {
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/*header section begins here*/
+header {
+    background-color: #0000ff;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    float:left;
+    margin: 0px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: 0px;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline;
+    border: 2px solid #00ff00;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px
+}
+
+nav>ul>li>a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav>ul>li:hover {
+    color: #fff;
+}
+
+nav>ul>li>a:hover {
+    color: #fff;
+}
+
+/* Hero section begin here */
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.hero>h1 {
+    margin: 0px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Sidebar section */
+aside{
+    background-color: #00ccff;
+    border: 2px solid #0000ff;
+    width: 30%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+aside ul li:hover {
+    background-color: #00ff00;
+    border: 1px dotted #0000ff;
+}
+
+aside ul li:hover a {
+    color: #0000ff;
+    font-weight: 700;
+}
+
+aside ul li {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main section */
+
+main {
+    float: right;
+    width: 70%;
+    height: 400px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+/* Footer section */
+
+footer {
+    height: 120px;
+    background-color: #00ff00;
+    clear: left;
+}
+
+footer div {
+    font-size: 100px;
+}
+
+.social-media {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-media .fa {
+    color: #000;
+}
