@@ -1,6 +1,17 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua|Open+Sans|Roboto');
+
 /* Universals section */
 .text-center {
     text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Inknut Antiqua', serif;
 }
 
 body {
